@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>CMPE281</h1>
+      <h3>LAB 1</h3>
+      <h5>Student :Derian Lemus</h5>
+      <p>
+        This lab assignment is designed to enable students to gain some hands-on
+        experience cloud technology by running a simple app (such as this one
+        this one) on Amazon's EC2.
+      </p>
     </div>
   );
 }
